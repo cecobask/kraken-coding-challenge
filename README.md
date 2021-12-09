@@ -1,6 +1,13 @@
-# Exercise: K/V REPL with nested transactions
+# K/V REPL with nested transactions
 
  Write a command line REPL (read-eval-print loop) that drives a simple in-memory key/value storage system. This system should also allow for nested transactions. A transaction can then be committed or aborted.
+
+## SETUP
+1. Install go if you don't have it
+2. Clone the repo
+3. `cd kraken-coding-challenge`
+4. Run the cli app: `go run cmd/kvrepl/main.go`
+5. Look at COMMANDS and EXAMPLE RUN sections below to find out how to use the cli app
 
 ## EXAMPLE RUN
 
